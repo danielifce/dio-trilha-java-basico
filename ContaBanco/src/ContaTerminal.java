@@ -1,6 +1,9 @@
 import java.util.Locale;
 import java.util.Scanner;
 /**
+ * Este programa simula o cadastro de uma conta bancária.
+ * O usuário é solicitado a fornecer o número da conta, número da agência, 
+ * nome do cliente e saldo da conta, e as informações são então exibidas.
  * @author Daniel Leite
  * @version 1.0
  * @since 15/03/25

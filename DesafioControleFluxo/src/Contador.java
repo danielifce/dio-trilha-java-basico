@@ -43,7 +43,7 @@ public class Contador {
      * @throws ParametrosInvalidosException Caso o parâmetroUm seja maior que o parâmetroDois, uma exceção será lançada.
      */
     static void contar(int parametroUm, int parametroDois) throws ParametrosInvalidosException {
-        // Verifica se o parâmetro inicial é maior que o final
+        // Verifica se o parâmetroUm é maior que o parâmetroDois
         if (parametroUm > parametroDois) {
             // Lança uma exceção caso a condição acima seja verdadeira
             throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro!");
